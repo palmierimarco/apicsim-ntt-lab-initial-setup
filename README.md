@@ -1,7 +1,7 @@
 # apicsim-initial-setup
 
 ```
-$ git clone https://github.com/Pr1meSuspec7/apicsim-initial-setup.git
+$ git clone https://github.com/palmierimarco/apicsim-initial-setup.git
 $ cd apicsim-initial-setup
 $ terraform init
 $ terraform apply
