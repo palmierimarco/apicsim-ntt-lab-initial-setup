@@ -1,0 +1,48 @@
+{
+    "datetimePol": {
+        "attributes": {
+            "StratumValue": "8",
+            "adminSt": "enabled",
+            "annotation": "",
+            "authSt": "disabled",
+            "descr": "",
+            "dn": "uni/fabric/time-default",
+            "masterMode": "disabled",
+            "name": "default",
+            "nameAlias": "",
+            "ownerKey": "",
+            "ownerTag": "",
+            "serverState": "disabled",
+            "userdom": "all"
+        },
+        "children": [
+            {
+                "datetimeNtpProv": {
+                    "attributes": {
+                        "annotation": "",
+                        "descr": "",
+                        "keyId": "0",
+                        "maxPoll": "6",
+                        "minPoll": "4",
+                        "name": "it.pool.ntp.org",
+                        "nameAlias": "",
+                        "preferred": "yes",
+                        "trueChimer": "disabled",
+                        "userdom": ":all:"
+                    },
+                    "children": [
+                        {
+                            "datetimeRsNtpProvToEpg": {
+                                "attributes": {
+                                    "annotation": "",
+                                    "tDn": "uni/tn-mgmt/mgmtp-default/oob-default",
+                                    "userdom": ":all:"
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

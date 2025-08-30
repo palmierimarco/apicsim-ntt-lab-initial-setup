@@ -1,0 +1,41 @@
+{
+    "fabricPodP": {
+        "attributes": {
+            "annotation": "",
+            "descr": "",
+            "dn": "uni/fabric/podprof-default",
+            "name": "default",
+            "nameAlias": "",
+            "ownerKey": "",
+            "ownerTag": "",
+            "userdom": "all"
+        },
+        "children": [
+            {
+                "fabricPodS": {
+                    "attributes": {
+                        "annotation": "",
+                        "descr": "",
+                        "name": "default",
+                        "nameAlias": "",
+                        "ownerKey": "",
+                        "ownerTag": "",
+                        "type": "ALL",
+                        "userdom": "all"
+                    },
+                    "children": [
+                        {
+                            "fabricRsPodPGrp": {
+                                "attributes": {
+                                    "annotation": "",
+                                    "tDn": "uni/fabric/funcprof/podpgrp-default",
+                                    "userdom": ":all:"
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

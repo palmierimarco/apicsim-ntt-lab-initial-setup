@@ -1,0 +1,82 @@
+{
+    "totalCount": "1",
+    "imdata": [
+        {
+            "bgpInstPol": {
+                "attributes": {
+                    "annotation": "",
+                    "descr": "",
+                    "dn": "uni/fabric/bgpInstP-default",
+                    "name": "default",
+                    "nameAlias": "",
+                    "ownerKey": "",
+                    "ownerTag": "",
+                    "userdom": "all"
+                },
+                "children": [
+                    {
+                        "bgpRRP": {
+                            "attributes": {
+                                "annotation": "",
+                                "descr": "",
+                                "name": "",
+                                "nameAlias": "",
+                                "userdom": "all"
+                            },
+                            "children": [
+                                {
+                                    "bgpRRNodePEp": {
+                                        "attributes": {
+                                            "annotation": "",
+                                            "descr": "",
+                                            "id": "511",
+                                            "nameAlias": "",
+                                            "podId": "1",
+                                            "userdom": ":all:"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "bgpExtRRP": {
+                            "attributes": {
+                                "annotation": "",
+                                "descr": "",
+                                "name": "",
+                                "nameAlias": "",
+                                "userdom": "all"
+                            }
+                        }
+                    },
+                    {
+                        "bgpDomainIdBase": {
+                            "attributes": {
+                                "annotation": "",
+                                "descr": "",
+                                "domainIdBase": "0",
+                                "domainIdBaseIp": "0.0.0.0",
+                                "name": "",
+                                "nameAlias": "",
+                                "userdom": "all"
+                            }
+                        }
+                    },
+                    {
+                        "bgpAsP": {
+                            "attributes": {
+                                "annotation": "",
+                                "asn": "65000",
+                                "descr": "",
+                                "name": "",
+                                "nameAlias": "",
+                                "userdom": ":all:"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

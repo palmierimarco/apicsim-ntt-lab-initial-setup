@@ -1,0 +1,79 @@
+{
+    "fabricPodPGrp": {
+        "attributes": {
+            "annotation": "",
+            "descr": "",
+            "dn": "uni/fabric/funcprof/podpgrp-default",
+            "name": "default",
+            "nameAlias": "",
+            "ownerKey": "",
+            "ownerTag": "",
+            "userdom": ":all:"
+        },
+        "children": [
+            {
+                "fabricRsSnmpPol": {
+                    "attributes": {
+                        "annotation": "",
+                        "tnSnmpPolName": "",
+                        "userdom": "all"
+                    }
+                }
+            },
+            {
+                "fabricRsPodPGrpIsisDomP": {
+                    "attributes": {
+                        "annotation": "",
+                        "tnIsisDomPolName": "",
+                        "userdom": "all"
+                    }
+                }
+            },
+            {
+                "fabricRsPodPGrpCoopP": {
+                    "attributes": {
+                        "annotation": "",
+                        "tnCoopPolName": "",
+                        "userdom": "all"
+                    }
+                }
+            },
+            {
+                "fabricRsPodPGrpBGPRRP": {
+                    "attributes": {
+                        "annotation": "",
+                        "tnBgpInstPolName": "",
+                        "userdom": "all"
+                    }
+                }
+            },
+            {
+                "fabricRsTimePol": {
+                    "attributes": {
+                        "annotation": "",
+                        "tnDatetimePolName": "",
+                        "userdom": "all"
+                    }
+                }
+            },
+            {
+                "fabricRsMacsecPol": {
+                    "attributes": {
+                        "annotation": "",
+                        "tnMacsecFabIfPolName": "",
+                        "userdom": "all"
+                    }
+                }
+            },
+            {
+                "fabricRsCommPol": {
+                    "attributes": {
+                        "annotation": "",
+                        "tnCommPolName": "",
+                        "userdom": "all"
+                    }
+                }
+            }
+        ]
+    }
+}
